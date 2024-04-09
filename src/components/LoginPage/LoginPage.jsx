@@ -5,7 +5,7 @@ const LoginPage = () => {
         <div>
 
             <Helmet>
-                <title>Real Estate | Login Page</title>
+                <title>Modern Living | Login Page</title>
             </Helmet>
 
             <h1>Login Page</h1>

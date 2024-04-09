@@ -4,7 +4,7 @@ const UpdateProfile = () => {
     return (
         <div>
             <Helmet>
-                <title>Real Estate | Update Profile Page</title>
+                <title>Modern Living | Update Profile Page</title>
             </Helmet>
 
             <h1>Update Profile Page</h1>

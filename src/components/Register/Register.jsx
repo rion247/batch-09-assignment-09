@@ -4,7 +4,7 @@ const Register = () => {
     return (
         <div>
             <Helmet>
-                <title>Real Estate | Register Page</title>
+                <title>Modern Living | Register Page</title>
             </Helmet>
             <h1>Register Page</h1>
         </div>
