@@ -7,13 +7,13 @@ const PrivateRoute = ({children}) => {
 
     const {user} = useContext(AuthContext);
 
-    const location = useLocation;
+    // const location = useLocation;
 
     if(user){
         return {children}
     }
 
-    return <Navigate state={location.pathname} to='/login'/>
+    return <Navigate to='/login'/>
 };
 
 PrivateRoute.propTypes = {
