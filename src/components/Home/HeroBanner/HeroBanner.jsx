@@ -1,13 +1,12 @@
 import { BsTextarea } from "react-icons/bs";
 import { FaBath } from "react-icons/fa";
 import { LuSofa } from "react-icons/lu";
-// import { Swiper, SwiperSlide } from 'swiper/react';
-// import 'swiper/css';
-// import 'swiper/css/pagination';
-// import 'swiper/css/navigation';
-// import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import { useRef, useEffect } from 'react';
 import { register } from 'swiper/element/bundle';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
 
 register();
 
@@ -45,7 +44,7 @@ const HeroBanner = () => {
 
                         <div className="w-full flex justify-center items-center md:items-end h-screen lg:h-[772px] bg-[url('../../../../src/assets/heroBannerImage01.jpg')] bg-center bg-no-repeat bg-cover p-5 md:p-8 lg:pb-10">
 
-                            <div className="bg-white rounded-md md:rounded-xl lg:rounded-2xl p-4 lg:p-8">
+                            <div data-aos="fade-up" className="bg-white rounded-md md:rounded-xl lg:rounded-2xl p-4 lg:p-8">
 
                                 <div className="flex flex-col justify-center items-center mb-4 xl:hidden">
                                     <h4 className="md:text-xl lg:text-2xl font-bold md:mb-1 lg:mb-2">Luxury Family Home</h4>
@@ -129,7 +128,7 @@ const HeroBanner = () => {
 
                         <div className="w-full flex justify-center items-center md:items-end h-screen lg:h-[772px] bg-[url('../../../../src/assets/heroBannerImage02.jpg')] bg-center bg-no-repeat bg-cover p-5 md:p-8 lg:pb-10">
 
-                            <div className="bg-white rounded-md md:rounded-xl lg:rounded-2xl p-4 lg:p-8">
+                            <div data-aos="fade-up" className="bg-white rounded-md md:rounded-xl lg:rounded-2xl p-4 lg:p-8">
 
                                 <div className="flex flex-col justify-center items-center mb-4 xl:hidden">
                                     <h4 className="md:text-xl lg:text-2xl font-bold md:mb-1 lg:mb-2">Townhouses</h4>
@@ -216,7 +215,7 @@ const HeroBanner = () => {
 
                         <div className="w-full flex justify-center items-center md:items-end h-screen lg:h-[772px] bg-[url('../../../../src/assets/heroBannerImage05.jpg')] bg-center bg-no-repeat bg-cover p-5 md:p-8 lg:pb-10">
 
-                            <div className="bg-white rounded-md md:rounded-xl lg:rounded-2xl p-4 lg:p-8">
+                            <div data-aos="fade-up" className="bg-white rounded-md md:rounded-xl lg:rounded-2xl p-4 lg:p-8">
 
                                 <div className="flex flex-col justify-center items-center mb-4 xl:hidden">
                                     <h4 className="md:text-xl lg:text-2xl font-bold md:mb-1 lg:mb-2">Apartments</h4>
@@ -300,7 +299,7 @@ const HeroBanner = () => {
 
                         <div className="w-full flex justify-center items-center md:items-end h-screen lg:h-[772px] bg-[url('../../../../src/assets/heroBannerImage04.jpg')] bg-center bg-no-repeat bg-cover p-5 md:p-8 lg:pb-10">
 
-                            <div className="bg-white rounded-md md:rounded-xl lg:rounded-2xl p-4 lg:p-8">
+                            <div data-aos="fade-up" className="bg-white rounded-md md:rounded-xl lg:rounded-2xl p-4 lg:p-8">
 
                                 <div className="flex flex-col justify-center items-center mb-4 xl:hidden">
                                     <h4 className="md:text-xl lg:text-2xl font-bold md:mb-1 lg:mb-2">Student Housing</h4>
@@ -384,7 +383,7 @@ const HeroBanner = () => {
 
                         <div className="w-full flex justify-center items-center md:items-end h-screen lg:h-[772px] bg-[url('../../../../src/assets/heroBannerImage03.jpg')] bg-center bg-no-repeat bg-cover p-5 md:p-8 lg:pb-10">
 
-                            <div className="bg-white rounded-md md:rounded-xl lg:rounded-2xl p-4 lg:p-8">
+                            <div data-aos="fade-up" className="bg-white rounded-md md:rounded-xl lg:rounded-2xl p-4 lg:p-8">
 
                                 <div className="flex flex-col justify-center items-center mb-4 xl:hidden">
                                     <h4 className="md:text-xl lg:text-2xl font-bold md:mb-1 lg:mb-2">Senior Living Communities</h4>
