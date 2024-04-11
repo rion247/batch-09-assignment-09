@@ -2,10 +2,15 @@ import { Helmet } from 'react-helmet';
 import NavBar from '../NavBar/NavBar';
 import { Link } from 'react-router-dom';
 import { useForm } from "react-hook-form"
-import { useContext } from 'react';
+import { useContext, useState } from 'react';
 import { AuthContext } from '../../AuthProvider/AuthProvider';
+import { ToastContainer, toast } from 'react-toastify';
+import { FaEye, FaEyeSlash } from 'react-icons/fa';
+
 
 const Register = () => {
+
+    const [showPassword, SetShowPassword] = useState(false);
 
     const { creatingUserManually, profileUpdater } = useContext(AuthContext);
 
@@ -19,8 +24,21 @@ const Register = () => {
 
         const { yourName, photoURL, email, password } = data;
 
+        if (password.length < 6) {
+            return toast('Sorry!!!Six character password required.');
+        }
+
+        const patternforLoweCaseAndUpperCase = /^(?=.*[a-z])(?=.*[A-Z]).+$/;
+        const isValidPasswordforLoweCaseAndUpperCase = patternforLoweCaseAndUpperCase.test(password);
+
+        if (!isValidPasswordforLoweCaseAndUpperCase) {
+            return toast('Must Have a Lowercase and an Uppercase character in the password.');
+        }
+
         creatingUserManually(email, photoURL, email, password)
             .then((result) => {
+                toast('Congrats!!! Registration done Successfully.');
+
                 profileUpdater(yourName, photoURL)
                     .then(() => {
                         console.log('Profile updated!', (result.user));
@@ -68,10 +86,19 @@ const Register = () => {
                             {errors.email && <span className='text-red-500'>This field is required</span>}
                         </div>
 
-                        <div className="mt-1 md:mt-2 lg:mt-3 xl:mt-4 mb-3 md:mb-4 lg:mb-5 xl:mb-6">
+                        <div className="mt-1 md:mt-2 lg:mt-3 xl:mt-4 mb-3 md:mb-4 lg:mb-5 xl:mb-6 relative">
                             <label htmlFor="password" className="block text-base md:text-lg xl:text-xl font-semibold mb-4">Enter Your Password</label>
-                            <input type="password" name="password" placeholder="Enter Your Password" className="w-full p-5 border rounded-md border-neutral-200 text-neutral-500" {...register("password", { required: true })} />
+
+                            <input type={showPassword ? "text" : "password"}
+                                name="password" placeholder="Enter Your Password" className="w-full p-5 border rounded-md border-neutral-200 text-neutral-500 " {...register("password", { required: true })} />
                             {errors.password && <span className='text-red-500'>This field is required</span>}
+
+                            <span onClick={() => SetShowPassword(!showPassword)} className='absolute text-base lg:text-lg xl:text-xl text-neutral-500 md:top-[70px] xl:top-16 right-4 xl:right-6 cursor-pointer'>
+                                {
+                                    showPassword ? <FaEyeSlash /> : <FaEye />
+                                }
+                            </span>
+
                         </div>
 
                         <button type='submit' className="w-full p-3 md:p-4 xl:p-5 text-base md:text-lg xl:text-xl font-semibold rounded-md bg-red-500 hover:bg-red-600 text-white">Register Now</button>
@@ -84,6 +111,7 @@ const Register = () => {
 
             </div>
 
+            <ToastContainer />
 
         </div>
     );
