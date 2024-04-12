@@ -42,7 +42,7 @@ const HeroBanner = () => {
 
                     <div className="w-full h-auto md:mt-4 lg:mt-8 font-poppins">
 
-                        <div className="w-full flex justify-center items-center md:items-end h-screen lg:h-[772px] bg-[url('../../../../src/assets/heroBannerImage01.jpg')] bg-center bg-no-repeat bg-cover p-5 md:p-8 lg:pb-10">
+                        <div className="w-full flex justify-center items-center md:items-end h-screen lg:h-[772px] bg-[url('/heroBannerImage01.jpg')] bg-center bg-no-repeat bg-cover p-5 md:p-8 lg:pb-10">
 
                             <div data-aos="fade-up" className="bg-white rounded-md md:rounded-xl lg:rounded-2xl p-4 lg:p-8">
 
@@ -126,7 +126,7 @@ const HeroBanner = () => {
 
                     <div className="w-full h-auto md:mt-4 lg:mt-8 font-poppins">
 
-                        <div className="w-full flex justify-center items-center md:items-end h-screen lg:h-[772px] bg-[url('../../../../src/assets/heroBannerImage02.jpg')] bg-center bg-no-repeat bg-cover p-5 md:p-8 lg:pb-10">
+                        <div className="w-full flex justify-center items-center md:items-end h-screen lg:h-[772px] bg-[url('/heroBannerImage02.jpg')] bg-center bg-no-repeat bg-cover p-5 md:p-8 lg:pb-10">
 
                             <div data-aos="fade-up" className="bg-white rounded-md md:rounded-xl lg:rounded-2xl p-4 lg:p-8">
 
@@ -213,7 +213,7 @@ const HeroBanner = () => {
 
                     <div className="w-full h-auto md:mt-4 lg:mt-8 font-poppins">
 
-                        <div className="w-full flex justify-center items-center md:items-end h-screen lg:h-[772px] bg-[url('../../../../src/assets/heroBannerImage05.jpg')] bg-center bg-no-repeat bg-cover p-5 md:p-8 lg:pb-10">
+                        <div className="w-full flex justify-center items-center md:items-end h-screen lg:h-[772px] bg-[url('/heroBannerImage05.jpg')] bg-center bg-no-repeat bg-cover p-5 md:p-8 lg:pb-10">
 
                             <div data-aos="fade-up" className="bg-white rounded-md md:rounded-xl lg:rounded-2xl p-4 lg:p-8">
 
@@ -297,7 +297,7 @@ const HeroBanner = () => {
 
                     <div className="w-full h-auto md:mt-4 lg:mt-8 font-poppins">
 
-                        <div className="w-full flex justify-center items-center md:items-end h-screen lg:h-[772px] bg-[url('../../../../src/assets/heroBannerImage04.jpg')] bg-center bg-no-repeat bg-cover p-5 md:p-8 lg:pb-10">
+                        <div className="w-full flex justify-center items-center md:items-end h-screen lg:h-[772px] bg-[url('/heroBannerImage04.jpg')] bg-center bg-no-repeat bg-cover p-5 md:p-8 lg:pb-10">
 
                             <div data-aos="fade-up" className="bg-white rounded-md md:rounded-xl lg:rounded-2xl p-4 lg:p-8">
 
@@ -381,7 +381,7 @@ const HeroBanner = () => {
 
                     <div className="w-full h-auto md:mt-4 lg:mt-8 font-poppins">
 
-                        <div className="w-full flex justify-center items-center md:items-end h-screen lg:h-[772px] bg-[url('../../../../src/assets/heroBannerImage03.jpg')] bg-center bg-no-repeat bg-cover p-5 md:p-8 lg:pb-10">
+                        <div className="w-full flex justify-center items-center md:items-end h-screen lg:h-[772px] bg-[url('/heroBannerImage03.jpg')] bg-center bg-no-repeat bg-cover p-5 md:p-8 lg:pb-10">
 
                             <div data-aos="fade-up" className="bg-white rounded-md md:rounded-xl lg:rounded-2xl p-4 lg:p-8">
 

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { useForm } from "react-hook-form"
 import { useContext, useState } from 'react';
 import { AuthContext } from '../../AuthProvider/AuthProvider';
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
 
 
@@ -38,7 +38,6 @@ const Register = () => {
         creatingUserManually(email, photoURL, email, password)
             .then((result) => {
                 toast('Congrats!!! Registration done Successfully.');
-
                 profileUpdater(yourName, photoURL)
                     .then(() => {
                         console.log('Profile updated!', (result.user));
@@ -48,7 +47,7 @@ const Register = () => {
             })
             .catch((error) => {
                 const errorMessage = error.message;
-                console.log(errorMessage);
+                toast(errorMessage);
             });
 
     }
@@ -111,7 +110,7 @@ const Register = () => {
 
             </div>
 
-            <ToastContainer />
+            
 
         </div>
     );

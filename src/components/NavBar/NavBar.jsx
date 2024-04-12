@@ -5,9 +5,12 @@ import { useContext } from "react";
 import { AuthContext } from "../../AuthProvider/AuthProvider";
 import Loading from "../Loading/Loading";
 
+
 const NavBar = () => {
 
     const { user, userSignOut, loading } = useContext(AuthContext);
+
+    console.log(user);
 
     const links = <>
         <NavLink to="/" className={({ isActive }) =>
@@ -16,15 +19,15 @@ const NavBar = () => {
             isActive ? "bg-red-500 text-white px-4 py-2 rounded" : "bg-transparent px-4 py-2 rounded"}>Update Profile</NavLink>
     </>
 
+    if (loading) {
+        return <Loading></Loading>
+    }
+
     const handleSignOutButton = () => {
-       
-        if (loading) {
-            return <Loading></Loading>
-        }
 
         userSignOut()
             .then(() => {
-                console.log('Sign-out successful!!!');
+                alert('Sign-out successful!!!');
             }).catch((error) => {
                 console.log('An error happened', error);
             });
@@ -32,7 +35,7 @@ const NavBar = () => {
 
     return (
 
-        <div className="container mx-auto mt-6 font-poppins">
+        <div className="container mx-auto mt-6 font-poppins z-10">
 
             <div className="flex justify-center md:hidden">
                 <Link to='/' className="text-base md:hidden font-extrabold flex items-center"><img className="w-6 h-6 -translate-y-1 mr-1" src={siteMainLogoPic} alt="...Loading" />MODERN<span className="text-red-500">LIVING</span></Link>
@@ -73,6 +76,7 @@ const NavBar = () => {
                 </div>
 
             </div>
+
 
         </div>
 
