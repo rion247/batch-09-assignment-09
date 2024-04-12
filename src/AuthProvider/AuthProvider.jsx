@@ -3,13 +3,15 @@ import { createContext, useEffect, useState } from "react";
 import { auth } from './../FireBase/fireBase.Config';
 import { GoogleAuthProvider, signOut } from "firebase/auth";
 import PropTypes from 'prop-types';
-import 'react-toastify/dist/ReactToastify.css';
+
 
 export const AuthContext = createContext(null);
 
 const AuthProvider = ({ children }) => {
 
     const [user, SetUser] = useState(null);
+
+    const [reload, SetReload] = useState(false);
 
     const [loading, SetLoading] = useState(true);
 
@@ -18,7 +20,7 @@ const AuthProvider = ({ children }) => {
         return createUserWithEmailAndPassword(auth, email, password);
     }
 
-    const signInManually = (email, password) => {
+    const signInWithEmail = (email, password) => {
         SetLoading(true);
         return signInWithEmailAndPassword(auth, email, password);
     }
@@ -64,7 +66,7 @@ const AuthProvider = ({ children }) => {
             unSubscribe();
         };
 
-    }, [])
+    }, [reload])
 
     const authInfo = {
         user,
@@ -74,7 +76,8 @@ const AuthProvider = ({ children }) => {
         loading,
         profileUpdater,
         userSignOut,
-        signInManually,
+        signInWithEmail,
+        SetReload
     }
 
     return (

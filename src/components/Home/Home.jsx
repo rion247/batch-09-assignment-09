@@ -13,7 +13,12 @@ const Home = () => {
 
             <NavBar></NavBar>
 
+
             <HeroBanner></HeroBanner>
+
+
+
+
 
         </div>
     );

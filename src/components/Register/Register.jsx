@@ -1,18 +1,19 @@
 import { Helmet } from 'react-helmet';
 import NavBar from '../NavBar/NavBar';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useForm } from "react-hook-form"
 import { useContext, useState } from 'react';
 import { AuthContext } from '../../AuthProvider/AuthProvider';
 import { toast } from 'react-toastify';
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
 
-
 const Register = () => {
 
     const [showPassword, SetShowPassword] = useState(false);
 
-    const { creatingUserManually, profileUpdater } = useContext(AuthContext);
+    const { creatingUserManually, profileUpdater, SetReload } = useContext(AuthContext);
+
+    const navigate = useNavigate();
 
     const {
         register,
@@ -37,10 +38,13 @@ const Register = () => {
 
         creatingUserManually(email, photoURL, email, password)
             .then((result) => {
-                toast('Congrats!!! Registration done Successfully.');
+                console.log(result.user);
+                toast.success('Congrats!!! Registration done Successfully.');
+                navigate('/updateProfile');
                 profileUpdater(yourName, photoURL)
                     .then(() => {
-                        console.log('Profile updated!', (result.user));
+                        console.log('Profile updated!');
+                        SetReload(true);
                     }).catch((error) => {
                         console.log('An error occurred', error);
                     });
@@ -109,8 +113,6 @@ const Register = () => {
                 </div>
 
             </div>
-
-            
 
         </div>
     );

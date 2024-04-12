@@ -3,12 +3,18 @@ import NavBar from '../NavBar/NavBar';
 import { useForm } from 'react-hook-form';
 import { useContext } from 'react';
 import { AuthContext } from '../../AuthProvider/AuthProvider';
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 
 const UpdateProfile = () => {
 
     const { profileUpdater } = useContext(AuthContext);
+
+    const location =useLocation();
+
+    const navigate = useNavigate();
 
     const {
         register,
@@ -22,7 +28,8 @@ const UpdateProfile = () => {
 
         profileUpdater(yourName, photoURL)
             .then(() => {
-                toast('Profile updated!');
+                toast('User profile updated');
+                navigate(location?.state? location.state : '/');
             }).catch((error) => {
                 console.log('An error occurred', error);
             });
@@ -63,8 +70,6 @@ const UpdateProfile = () => {
                 </div>
 
             </div>
-
-            <ToastContainer />
 
         </div>
     );

@@ -1,18 +1,17 @@
 import { Helmet } from 'react-helmet';
 import NavBar from '../NavBar/NavBar';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { useForm } from "react-hook-form"
 import { useContext, useState } from 'react';
 import { AuthContext } from './../../AuthProvider/AuthProvider';
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { toast } from 'react-toastify';
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
+import { useForm } from 'react-hook-form';
 
 const LoginPage = () => {
 
     const [showPassword, SetShowPassword] = useState(false);
 
-    const { signInManually, createGitHubLogin, createGoogleLogin } = useContext(AuthContext);
+    const { signInWithEmail, createGitHubLogin, createGoogleLogin } = useContext(AuthContext);
 
     const location = useLocation();
     const navigate = useNavigate();
@@ -21,33 +20,26 @@ const LoginPage = () => {
         register,
         handleSubmit,
         formState: { errors },
-    } = useForm();
+    } = useForm()
 
     const onSubmit = (data) => {
+        const email = data.email;
+        const password = data.password;
+        console.log(email);
+        console.log(password);
 
-        const { email, password } = data;
+        signInWithEmail(email, password)
+            .then((userCredential) => {
+                // Signed in 
+                const user = userCredential.user;
+                console.log(user);
+                // ...
+            })
+            .catch((error) => {
+                const errorMessage = error.message;
+                console.log(errorMessage);
+            });
 
-        console.log(email, password);
-
-        signInManually(email, password)
-        .then((result) => {
-            // Signed in 
-            console.log(result.user);
-          })
-          .catch((error) => {            
-            const errorMessage = error.message;
-            console.log(errorMessage);
-          });
-
-        // signInManually(email, password)
-        //     .then((result) => {
-        //         console.log(result.user);
-        //         // toast('Login Successful');
-        //     })
-        //     .catch((error) => {
-        //         const errorMessage = error.message;
-        //         console.log(errorMessage);
-        //     });
     }
 
     const handleGoogleLoginButton = () => {
@@ -69,6 +61,7 @@ const LoginPage = () => {
             .then((result) => {
                 console.log(result.user);
                 toast('Login Successful');
+                navigate(location?.state ? location.state : '/');
             })
             .catch((error) => {
                 const errorMessage = error.message;
@@ -95,8 +88,7 @@ const LoginPage = () => {
                         <div className="mt-1 md:mt-2 lg:mt-3 xl:mt-4 mb-3 md:mb-4 lg:mb-5 xl:mb-6">
                             <label htmlFor="email" className="block text-base md:text-lg xl:text-xl font-semibold mb-4">Email Address</label>
                             <input type="email" name="email" placeholder="Enter Your Email Address" className="w-full p-5 border rounded-md border-neutral-200 text-neutral-500" {...register("email", { required: true })} />
-                            {errors.email && <span className='text-red-500'>This field is required</span>}
-
+                            {errors.email && <span>This field is required</span>}
                         </div>
 
                         <div className='relative'>
@@ -106,13 +98,14 @@ const LoginPage = () => {
                             </div>
                             <input type={showPassword ? "text" : "password"}
                                 name="password" id="password" placeholder="Enter Your Password" className="w-full p-5 border rounded-md border-neutral-200 text-neutral-500" {...register("password", { required: true })} />
-                            {errors.password && <span className='text-red-500'>This field is required</span>}
+                            {errors.password && <span>This field is required</span>}
 
                             <span onClick={() => SetShowPassword(!showPassword)} className='absolute text-base lg:text-lg xl:text-xl text-neutral-500 md:top-[70px] xl:top-16 right-4 xl:right-6 cursor-pointer'>
                                 {
                                     showPassword ? <FaEyeSlash /> : <FaEye />
                                 }
                             </span>
+
                         </div>
 
                         <button type='submit' className="w-full mt-3 md:mt-4 lg:mt-5 xl:mt-6 p-3 md:p-4 xl:p-5 text-base md:text-lg xl:text-xl font-semibold rounded-md bg-red-500 hover:bg-red-600 text-white">Login</button>
@@ -148,8 +141,6 @@ const LoginPage = () => {
                 </div>
 
             </div>
-
-            <ToastContainer />
 
         </div>
     );
