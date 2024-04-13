@@ -1,0 +1,145 @@
+[
+    {
+        "id": 1,
+        "estate_title": "Luxurious Villa with Stunning Views",
+        "segment_name": "Luxury",
+        "description": "This luxurious villa offers breathtaking views of the surrounding mountains and sea. With spacious living areas, modern kitchen facilities, and a private swimming pool, it's the perfect retreat for those seeking tranquility and comfort.",
+        "price": 1000000,
+        "status": "sale",
+        "area_sq_ft": 5000,
+        "location": "City Center",
+        "facilities": [
+            "living room",
+            "swimming pool",
+            "kitchen"
+        ],
+        "image_url": "https://ibb.co/rf4xGJS"
+    },
+    {
+        "id": 2,
+        "estate_title": "Cozy Apartment in Downtown",
+        "segment_name": "Urban",
+        "description": "This cozy apartment is located in the heart of downtown. With modern amenities, spacious rooms, and close proximity to shops and restaurants, it's an ideal choice for urban living.",
+        "price": 2000,
+        "status": "rent",
+        "area_sq_ft": 800,
+        "location": "Downtown",
+        "facilities": [
+            "living room",
+            "kitchen"
+        ],
+        "image_url": "https://ibb.co/bznWkmw"
+    },
+    {
+        "id": 3,
+        "estate_title": "Seaside Condo with Panoramic Views",
+        "segment_name": "Beachfront",
+        "description": "This seaside condo offers panoramic views of the ocean and coastline. With modern design, spacious balconies, and access to resort-style amenities, it's perfect for those seeking a beachfront lifestyle.",
+        "price": 800000,
+        "status": "sale",
+        "area_sq_ft": 1500,
+        "location": "Seaside",
+        "facilities": [
+            "balcony",
+            "swimming pool",
+            "gym"
+        ],
+        "image_url": "https://ibb.co/8rXG7zS"
+    },
+    {
+        "id": 4,
+        "estate_title": "Mountain Retreat Cabin with Serene Surroundings",
+        "segment_name": "Rural",
+        "description": "This mountain retreat cabin offers serene surroundings and rustic charm. With cozy interiors, a wood-burning fireplace, and access to hiking trails, it's the perfect getaway for nature lovers.",
+        "price": 500000,
+        "status": "sale",
+        "area_sq_ft": 2000,
+        "location": "Mountain",
+        "facilities": [
+            "fireplace",
+            "deck",
+            "hiking trails"
+        ],
+        "image_url": "https://ibb.co/qy4VPHx"
+    },
+    {
+        "id": 5,
+        "estate_title": "Luxury Penthouse with Skyline Views",
+        "segment_name": "Cityscape",
+        "description": "This luxury penthouse offers breathtaking skyline views and modern luxury. With expansive living spaces, designer finishes, and a rooftop terrace, it's the epitome of urban sophistication.",
+        "price": 1500000,
+        "status": "sale",
+        "area_sq_ft": 4000,
+        "location": "City Center",
+        "facilities": [
+            "rooftop terrace",
+            "gourmet kitchen",
+            "spa"
+        ],
+        "image_url": "https://ibb.co/HPZKTj9"
+    },
+    {
+        "id": 6,
+        "estate_title": "Charming Cottage in Suburban Neighborhood",
+        "segment_name": "Suburban",
+        "description": "This charming cottage is nestled in a quiet suburban neighborhood. With a cozy fireplace, spacious backyard, and proximity to parks and schools, it's perfect for families seeking a peaceful retreat.",
+        "price": 300000,
+        "status": "sale",
+        "area_sq_ft": 1800,
+        "location": "Suburbs",
+        "facilities": [
+            "fireplace",
+            "backyard",
+            "nearby parks"
+        ],
+        "image_url": "https://ibb.co/j3gXgj7"
+    },
+    {
+        "id": 7,
+        "estate_title": "Modern Townhouse with Urban Convenience",
+        "segment_name": "Townhouse",
+        "description": "This modern townhouse offers urban convenience and contemporary living. With sleek design, open floor plan, and proximity to shops and restaurants, it's perfect for those seeking a dynamic lifestyle.",
+        "price": 600000,
+        "status": "sale",
+        "area_sq_ft": 2500,
+        "location": "Urban",
+        "facilities": [
+            "open floor plan",
+            "modern design",
+            "nearby amenities"
+        ],
+        "image_url": "https://ibb.co/d08CFcQ"
+    },
+    {
+        "id": 8,
+        "estate_title": "Spacious Family Home in Quiet Suburb",
+        "segment_name": "Family",
+        "description": "This spacious family home is located in a quiet suburban neighborhood. With multiple bedrooms, large backyard, and excellent schools nearby, it's ideal for families looking for a peaceful and safe environment.",
+        "price": 400000,
+        "status": "sale",
+        "area_sq_ft": 2800,
+        "location": "Suburbs",
+        "facilities": [
+            "multiple bedrooms",
+            "large backyard",
+            "excellent schools"
+        ],
+        "image_url": "https://ibb.co/5stSmTY"
+    },
+    {
+        "id": 9,
+        "estate_title": "Lakefront Retreat with Tranquil Views",
+        "segment_name": "Lakefront",
+        "description": "This lakefront retreat offers tranquil views and outdoor living. With a private dock, expansive deck, and access to water activities, it's the perfect escape for nature enthusiasts.",
+        "price": 700000,
+        "status": "sale",
+        "area_sq_ft": 2200,
+        "location": "Lakefront",
+        "facilities": [
+            "private dock",
+            "expansive deck",
+            "water activities"
+        ],
+        "image_url": "https://ibb.co/hL8DRyT"
+    }
+]

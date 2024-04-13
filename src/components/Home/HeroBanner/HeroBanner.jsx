@@ -44,7 +44,7 @@ const HeroBanner = () => {
 
                         <div className="w-full flex justify-center items-center md:items-end h-screen lg:h-[772px] bg-[url('/heroBannerImage01.jpg')] bg-center bg-no-repeat bg-cover p-5 md:p-8 lg:pb-10">
 
-                            <div data-aos="fade-up" className="bg-white rounded-md md:rounded-xl lg:rounded-2xl p-4 lg:p-8">
+                            <div data-aos="fade-up" className="bg-white rounded-md md:rounded-xl lg:rounded-2xl p-4 lg:p-8"  data-aos-duration="1500">
 
                                 <div className="flex flex-col justify-center items-center mb-4 xl:hidden">
                                     <h4 className="md:text-xl lg:text-2xl font-bold md:mb-1 lg:mb-2">Luxury Family Home</h4>

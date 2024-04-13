@@ -75,7 +75,7 @@ const NavBar = () => {
                                 <div tabIndex={0} role="button" className="btn-neutral m-3"><img className="w-5 h-5 md:w-6 lg:w-10 md:h-6 lg:h-10 mr-3 md:mr-4 rounded-full" src={user.photoURL} alt="...Loading" /></div>
                                 <div tabIndex={0} className="dropdown-content z-10 card card-compact p-2 shadow bg-red-500 text-primary-content">
                                     <div className="card-body">
-                                        <h3 className=" text-sm md:text-base lg:text-lg xl:text-xl font-bold">{user.displayName}</h3>
+                                        <h3 className="text-sm md:text-base lg:text-lg xl:text-xl font-bold">{user.displayName}</h3>
                                         <p className="text-sm">{user.email}</p>
                                     </div>
                                 </div>
@@ -86,8 +86,8 @@ const NavBar = () => {
 
                     {
                         user ?
-                            <Link onClick={handleSignOutButton} className="bg-red-500 text-white px-3 md:px-6 lg:px-10 py-1 lg:py-2 font-medium text-sm md:text-base lg:text-xl">Log Out</Link>
-                            : <Link to='/login' className="bg-neutral-700 text-white px-3 md:px-6 lg:px-10 py-1 lg:py-2 font-medium text-sm md:text-base lg:text-xl">Log In</Link>
+                            <Link onClick={handleSignOutButton} className="bg-red-500 text-white px-3 md:px-6 lg:px-10 py-1 lg:py-2 font-medium text-sm md:text-base lg:text-xl rounded md:rounded-md lg:rounded-lg">Log Out</Link>
+                            : <Link to='/login' className="bg-neutral-700 text-white px-3 md:px-6 lg:px-10 py-1 lg:py-2 font-medium text-sm md:text-base lg:text-xl rounded md:rounded-md lg:rounded-lg">Log In</Link>
                     }
 
                 </div>

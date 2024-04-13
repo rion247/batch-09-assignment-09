@@ -10,7 +10,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 
 const UpdateProfile = () => {
 
-    const { profileUpdater } = useContext(AuthContext);
+    const { profileUpdater, user } = useContext(AuthContext);
 
     const location =useLocation();
 
@@ -53,13 +53,13 @@ const UpdateProfile = () => {
 
                         <div className="mt-1 md:mt-2 lg:mt-3 xl:mt-4 mb-3 md:mb-4 lg:mb-5 xl:mb-6">
                             <label htmlFor="yourName" className="block text-base md:text-lg xl:text-xl font-semibold mb-4">Your Full Name</label>
-                            <input type="text" name="yourName" placeholder="Enter Your Full Name" className="w-full p-5 border rounded-md border-neutral-200 text-neutral-500" {...register("yourName", { required: true })} />
+                            <input type="text" name="yourName" placeholder={user.displayName} className="w-full p-5 border rounded-md border-neutral-200 text-neutral-500" {...register("yourName", { required: true })} />
                             {errors.yourName && <span className='text-red-500'>This field is required</span>}
                         </div>
 
                         <div className="mt-1 md:mt-2 lg:mt-3 xl:mt-4 mb-3 md:mb-4 lg:mb-5 xl:mb-6">
                             <label htmlFor="photoURL" className="block text-base md:text-lg xl:text-xl font-semibold mb-4">Your Photo URL</label>
-                            <input type="text" name="photoURL" placeholder="Enter Your Photo URL" className="w-full p-5 border rounded-md border-neutral-200 text-neutral-500" {...register("photoURL", { required: true })} />
+                            <input type="text" name="photoURL" placeholder={user.photoURL} className="w-full p-5 border rounded-md border-neutral-200 text-neutral-500" {...register("photoURL", { required: true })} />
                             {errors.photoURL && <span className='text-red-500'>This field is required</span>}
                         </div>
 

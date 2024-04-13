@@ -78,7 +78,7 @@ const LoginPage = () => {
 
             <NavBar></NavBar>
 
-            <div className='flex items-center justify-center'>
+            <div data-aos="fade-up" className='flex items-center justify-center' data-aos-duration="3000">
 
                 <div className="w-full mx-auto max-w-80 md:max-w-xl lg:max-w-2xl xl:max-w-3xl rounded-md sm:p-8 text-gray-900">
                     <h2 className="text-xl md:text-2xl lg:text-3xl xl:text-4xl font-semibold text-center mt-4 lg:mt-6 xl:mt-8 pb-4 md:pb-6 lg:pb-8 xl:pb-12 mb-12 border-b border-b-neutral-300">Please Login to Your Account</h2>
