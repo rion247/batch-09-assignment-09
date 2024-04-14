@@ -12,7 +12,7 @@ const UpdateProfile = () => {
 
     const { profileUpdater, user } = useContext(AuthContext);
 
-    const location =useLocation();
+    const location = useLocation();
 
     const navigate = useNavigate();
 
@@ -29,7 +29,7 @@ const UpdateProfile = () => {
         profileUpdater(yourName, photoURL)
             .then(() => {
                 toast('User profile updated');
-                navigate(location?.state? location.state : '/');
+                navigate(location?.state ? location.state : '/');
             }).catch((error) => {
                 console.log('An error occurred', error);
             });

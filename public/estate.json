@@ -13,14 +13,14 @@
             "swimming pool",
             "kitchen"
         ],
-        "image_url": "https://ibb.co/rf4xGJS"
+        "image_url": "https://i.ibb.co/YTpc7GM/vu-anh-Ti-VPTYCG-3-E-unsplash.jpg"
     },
     {
         "id": 2,
         "estate_title": "Cozy Apartment in Downtown",
         "segment_name": "Urban",
         "description": "This cozy apartment is located in the heart of downtown. With modern amenities, spacious rooms, and close proximity to shops and restaurants, it's an ideal choice for urban living.",
-        "price": 2000,
+        "price": 2000000,
         "status": "rent",
         "area_sq_ft": 800,
         "location": "Downtown",
@@ -28,7 +28,7 @@
             "living room",
             "kitchen"
         ],
-        "image_url": "https://ibb.co/bznWkmw"
+        "image_url": "https://i.ibb.co/5BVMP4p/todd-kent-178j8t-Jr-Nlc-unsplash.jpg"
     },
     {
         "id": 3,
@@ -44,15 +44,15 @@
             "swimming pool",
             "gym"
         ],
-        "image_url": "https://ibb.co/8rXG7zS"
+        "image_url": "https://i.ibb.co/rxvqwb1/stephan-bechert-y-FV39g6-AZ5o-unsplash.jpg"
     },
     {
         "id": 4,
-        "estate_title": "Mountain Retreat Cabin with Serene Surroundings",
+        "estate_title": "Mountain Retreat Cabin with Serene",
         "segment_name": "Rural",
         "description": "This mountain retreat cabin offers serene surroundings and rustic charm. With cozy interiors, a wood-burning fireplace, and access to hiking trails, it's the perfect getaway for nature lovers.",
         "price": 500000,
-        "status": "sale",
+        "status": "rent",
         "area_sq_ft": 2000,
         "location": "Mountain",
         "facilities": [
@@ -60,7 +60,7 @@
             "deck",
             "hiking trails"
         ],
-        "image_url": "https://ibb.co/qy4VPHx"
+        "image_url": "https://i.ibb.co/6npLfKN/greg-rivers-r-Ch-FUMw-Ae7-E-unsplash.jpg"
     },
     {
         "id": 5,
@@ -76,11 +76,11 @@
             "gourmet kitchen",
             "spa"
         ],
-        "image_url": "https://ibb.co/HPZKTj9"
+        "image_url": "https://i.ibb.co/JpZcj9S/frames-for-your-heart-m-R1-CIDdu-GLc-unsplash.jpg"
     },
     {
         "id": 6,
-        "estate_title": "Charming Cottage in Suburban Neighborhood",
+        "estate_title": "Charming Cottage in Suburban",
         "segment_name": "Suburban",
         "description": "This charming cottage is nestled in a quiet suburban neighborhood. With a cozy fireplace, spacious backyard, and proximity to parks and schools, it's perfect for families seeking a peaceful retreat.",
         "price": 300000,
@@ -92,15 +92,15 @@
             "backyard",
             "nearby parks"
         ],
-        "image_url": "https://ibb.co/j3gXgj7"
+        "image_url": "https://i.ibb.co/L9n7ns4/florian-schmidinger-b-79n-Oqf95-I-unsplash.jpg"
     },
     {
         "id": 7,
-        "estate_title": "Modern Townhouse with Urban Convenience",
+        "estate_title": "Modern Townhouse with Urban",
         "segment_name": "Townhouse",
         "description": "This modern townhouse offers urban convenience and contemporary living. With sleek design, open floor plan, and proximity to shops and restaurants, it's perfect for those seeking a dynamic lifestyle.",
         "price": 600000,
-        "status": "sale",
+        "status": "rent",
         "area_sq_ft": 2500,
         "location": "Urban",
         "facilities": [
@@ -108,7 +108,7 @@
             "modern design",
             "nearby amenities"
         ],
-        "image_url": "https://ibb.co/d08CFcQ"
+        "image_url": "https://i.ibb.co/N6cD53L/digital-marketing-agency-ntwrk-g39p1k-Djv-SY-unsplash.jpg"
     },
     {
         "id": 8,
@@ -124,22 +124,7 @@
             "large backyard",
             "excellent schools"
         ],
-        "image_url": "https://ibb.co/5stSmTY"
-    },
-    {
-        "id": 9,
-        "estate_title": "Lakefront Retreat with Tranquil Views",
-        "segment_name": "Lakefront",
-        "description": "This lakefront retreat offers tranquil views and outdoor living. With a private dock, expansive deck, and access to water activities, it's the perfect escape for nature enthusiasts.",
-        "price": 700000,
-        "status": "sale",
-        "area_sq_ft": 2200,
-        "location": "Lakefront",
-        "facilities": [
-            "private dock",
-            "expansive deck",
-            "water activities"
-        ],
-        "image_url": "https://ibb.co/hL8DRyT"
+        "image_url": "https://i.ibb.co/fq04Y2T/ann-wallace-biep-NX5n7r4-unsplash.jpg"
     }
+    
 ]

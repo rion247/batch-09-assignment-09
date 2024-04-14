@@ -1,6 +1,8 @@
 import { Helmet } from "react-helmet";
 import NavBar from "../NavBar/NavBar";
 import HeroBanner from "./HeroBanner/HeroBanner";
+import Estates from "../Estate/Estates";
+import WhyChooseUs from "./WhyChooseUs/WhyChooseUs";
 
 
 const Home = () => {
@@ -12,9 +14,9 @@ const Home = () => {
             </Helmet>
 
             <NavBar></NavBar>
-
-
             <HeroBanner></HeroBanner>
+            <Estates></Estates>
+            <WhyChooseUs></WhyChooseUs>
 
 
 
