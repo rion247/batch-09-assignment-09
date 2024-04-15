@@ -36,7 +36,7 @@ const Register = () => {
             return toast('Must Have a Lowercase and an Uppercase character in the password.');
         }
 
-        creatingUserManually(email, photoURL, email, password)
+        creatingUserManually( email, password)
             .then((result) => {
                 console.log(result.user);
                 toast.success('Congrats!!! Registration done Successfully.');

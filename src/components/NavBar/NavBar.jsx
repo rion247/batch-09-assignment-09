@@ -11,7 +11,7 @@ const NavBar = () => {
 
     const { user, userSignOut, loading } = useContext(AuthContext);
 
-    console.log(user);
+    // console.log(user);
 
     const links = <>
         <NavLink to="/" className={({ isActive }) =>

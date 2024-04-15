@@ -6,6 +6,7 @@ import UpdateProfile from "../components/UpdateProfile/UpdateProfile";
 import PrivateRoute from "../components/PrivateRoute/PrivateRoute";
 import Register from "../components/Register/Register";
 import LoginPage from "../components/LoginPage/LoginPage";
+import TestimonialDetails from "../components/Home/Testimonial/TestimonialDetails";
 
 const router = createBrowserRouter([
     {
@@ -28,6 +29,11 @@ const router = createBrowserRouter([
             {
                 path: "/login",
                 element: <LoginPage/>,
+            },
+            {
+                path: "/testimonial/:id",
+                element: <TestimonialDetails/>,
+                loader: () => fetch('testimonials.json')
             },
         ],
     },

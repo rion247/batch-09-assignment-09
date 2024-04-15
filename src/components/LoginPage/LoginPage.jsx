@@ -11,7 +11,7 @@ const LoginPage = () => {
 
     const [showPassword, SetShowPassword] = useState(false);
 
-    const { signInWithEmail, createGitHubLogin, createGoogleLogin } = useContext(AuthContext);
+    const { userLogin, createGitHubLogin, createGoogleLogin } = useContext(AuthContext);
 
     const location = useLocation();
     const navigate = useNavigate();
@@ -28,7 +28,7 @@ const LoginPage = () => {
         console.log(email);
         console.log(password);
 
-        signInWithEmail(email, password)
+        userLogin(email, password)
             .then((userCredential) => {
                 // Signed in 
                 const user = userCredential.user;
