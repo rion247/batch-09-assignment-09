@@ -3,6 +3,7 @@ import NavBar from "../NavBar/NavBar";
 import HeroBanner from "./HeroBanner/HeroBanner";
 import Estates from "../Estate/Estates";
 import WhyChooseUs from "./WhyChooseUs/WhyChooseUs";
+import BannerSection from "./BannerSection/BannerSection";
 
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
             <HeroBanner></HeroBanner>
             <Estates></Estates>
             <WhyChooseUs></WhyChooseUs>
+            <BannerSection></BannerSection>
 
 
 
