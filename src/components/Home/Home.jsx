@@ -4,6 +4,9 @@ import HeroBanner from "./HeroBanner/HeroBanner";
 import Estates from "../Estate/Estates";
 import WhyChooseUs from "./WhyChooseUs/WhyChooseUs";
 import BannerSection from "./BannerSection/BannerSection";
+import LatestNews from "./LatestNewsSection/LatestNews";
+import Testimonial from "./Testimonial/Testimonial";
+import Footer from "./Footer/Footer";
 
 
 const Home = () => {
@@ -19,10 +22,9 @@ const Home = () => {
             <Estates></Estates>
             <WhyChooseUs></WhyChooseUs>
             <BannerSection></BannerSection>
-
-
-
-
+            <LatestNews></LatestNews>
+            <Testimonial></Testimonial>
+            <Footer></Footer>
 
         </div>
     );

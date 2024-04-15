@@ -1,7 +1,7 @@
 
 const BannerSection = () => {
     return (
-        <div className="font-poppins h-96 bg-gradient-to-b from-neutral-800 to-neutral-600 mb-10 md:mb-16 lg:mb-24 xl:mb-32 flex justify-center items-center">
+        <div className="font-poppins h-96 bg-gradient-to-b from-neutral-800 to-neutral-600 flex justify-center items-center">
 
             <div>
                 <h2 className="w-72 md:w-[500px] lg:w-[750px] xl:w-[950px] mx-auto text-base md:text-xl lg:text-2xl xl:text-4xl text-white font-medium text-center mb-6">Shoreditch kale chips paleo gochujang, pitchfork succulents cliche pour-over. </h2>
