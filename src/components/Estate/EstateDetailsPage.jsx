@@ -18,7 +18,7 @@ const EstateDetailsPage = () => {
 
     const clickedEstateDetails = estateData.find(item => item.id == estateid);
 
-    const { estate_title, segment_name, description, price, status, area_sq_ft, location, facilities, beds, baths, garage, image_url, post_time, post_views } = clickedEstateDetails;
+    const { estate_title, segment_name, description, price, status, area_sq_ft, facilities, beds, baths, garage, image_url, post_time, post_views } = clickedEstateDetails;
 
     return (
         <div className="max-w-80 md:max-w-xl lg:max-w-4xl xl:max-w-7xl mx-auto h-auto md:mt-4 lg:mt-8 font-poppins">
