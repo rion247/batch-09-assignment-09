@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import { AiOutlineShareAlt } from "react-icons/ai";
 import { BsEnvelope } from "react-icons/bs";
 import { CiClock2 } from "react-icons/ci";
@@ -22,6 +23,10 @@ const EstateDetailsPage = () => {
 
     return (
         <div className="max-w-80 md:max-w-xl lg:max-w-4xl xl:max-w-7xl mx-auto h-auto md:mt-4 lg:mt-8 font-poppins">
+
+            <Helmet>
+                <title>Modern Living | Estate Details</title>
+            </Helmet>
 
             <div className="w-full my-12 pb-8 mb-8 border-b border-b-neutral-300 flex flex-col-reverse md:flex-col lg:flex-row gap-6 justify-between items-center">
 

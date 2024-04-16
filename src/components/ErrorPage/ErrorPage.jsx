@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import errorPic from '../../assets/error.png';
 
 const ErrorPage = () => {
     return (
@@ -9,7 +10,7 @@ const ErrorPage = () => {
                 <div className="text-center">
 
                     <div className="flex justify-center">
-                        <img className="w-2/4 md:w-3/5 lg:w-3/4" src="../../../public/error.png" alt="...Loading" />
+                        <img className="w-2/4 md:w-3/5 lg:w-3/4" src={errorPic} alt="...Loading" />
                     </div>
 
                     <h1 className="text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold"><span>404.</span> An Error Occurred </h1>

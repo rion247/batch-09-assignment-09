@@ -8,6 +8,7 @@ import Register from "../components/Register/Register";
 import LoginPage from "../components/LoginPage/LoginPage";
 import TestimonialDetails from "../components/Home/Testimonial/TestimonialDetails";
 import EstateDetailsPage from "../components/Estate/EstateDetailsPage";
+import MeetOurTeam from "../components/MeetOurTeam/MeetOurTeam";
 
 const router = createBrowserRouter([
     {
@@ -32,14 +33,18 @@ const router = createBrowserRouter([
                 element: <LoginPage />,
             },
             {
+                path: "/meetOurTeam",
+                element: <PrivateRoute><MeetOurTeam /></PrivateRoute>,
+            },
+            {
                 path: "/testimonial/:clickedid",
                 element: <PrivateRoute><TestimonialDetails /></PrivateRoute>,
-                loader: () => fetch('testimonials.json'),
+                loader: () => fetch('../../../testimonials.json'),
             },
             {
                 path: "/estates/:estateid",
-                element: <EstateDetailsPage/>,
-                loader: () => fetch('../../public/estate.json'),
+                element: <PrivateRoute><EstateDetailsPage/></PrivateRoute>,
+                loader: () => fetch('../estate.json'),
             },
         ],
     },

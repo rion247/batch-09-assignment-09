@@ -23,7 +23,7 @@ const SingleEstates = ({ estate }) => {
 
                 <h4 className="text-xl font-semibold mb-3">{estate_title}</h4>
 
-                <p className="text-start text-sm text-neutral-500 mb-3 flex-1">{description.slice(0, 100)}</p>
+                <p className="text-start text-sm text-neutral-500 mb-3 flex-1">{description.slice(0, 120)}</p>
 
                 <div className="flex items-center justify-start text-blue-700 mb-3 font-semibold lg:text-lg xl:text-xl">
                     <h6 className="text-neutral-700">Price:</h6>

@@ -18,7 +18,8 @@ const NavBar = () => {
             isActive ? "bg-red-500 text-white px-4 py-2 rounded" : "bg-transparent px-4 py-2 rounded"}>Home</NavLink>
         <NavLink to="/updateProfile" className={({ isActive }) =>
             isActive ? "bg-red-500 text-white px-4 py-2 rounded" : "bg-transparent px-4 py-2 rounded"}>Update Profile</NavLink>
-
+        <NavLink to="/meetOurTeam" className={({ isActive }) =>
+            isActive ? "bg-red-500 text-white px-4 py-2 rounded" : "bg-transparent px-4 py-2 rounded"}>Team Member</NavLink>
     </>
 
     if (loading) {
