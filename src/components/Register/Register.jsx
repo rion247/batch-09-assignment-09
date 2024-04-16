@@ -60,9 +60,7 @@ const Register = () => {
         <div className='font-poppins'>
             <Helmet>
                 <title>Modern Living | Register Page</title>
-            </Helmet>
-
-            <NavBar></NavBar>
+            </Helmet>            
 
             <div data-aos="fade-up" data-aos-duration="3000" className='flex items-center justify-center'>
 

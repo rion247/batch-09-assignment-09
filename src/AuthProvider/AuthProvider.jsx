@@ -22,7 +22,7 @@ const AuthProvider = ({ children }) => {
 
     const userLogin = (email, password) => {
         SetLoading(true);
-        return signInWithEmailAndPassword(auth, email, password)
+        return signInWithEmailAndPassword(auth, email, password);
     }
 
     const googleProvider = new GoogleAuthProvider();

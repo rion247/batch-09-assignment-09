@@ -42,8 +42,6 @@ const UpdateProfile = () => {
                 <title>Modern Living | Update Profile Page</title>
             </Helmet>
 
-            <NavBar></NavBar>
-
             <div className='flex items-center justify-center'>
 
                 <div className="w-full mx-auto max-w-80 md:max-w-xl lg:max-w-2xl xl:max-w-3xl rounded-md sm:p-8 text-gray-900">

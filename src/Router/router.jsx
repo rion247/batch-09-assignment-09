@@ -7,6 +7,7 @@ import PrivateRoute from "../components/PrivateRoute/PrivateRoute";
 import Register from "../components/Register/Register";
 import LoginPage from "../components/LoginPage/LoginPage";
 import TestimonialDetails from "../components/Home/Testimonial/TestimonialDetails";
+import EstateDetailsPage from "../components/Estate/EstateDetailsPage";
 
 const router = createBrowserRouter([
     {
@@ -24,16 +25,21 @@ const router = createBrowserRouter([
             },
             {
                 path: "/register",
-                element: <Register/>,
+                element: <Register />,
             },
             {
                 path: "/login",
-                element: <LoginPage/>,
+                element: <LoginPage />,
             },
             {
-                path: "/testimonial/:id",
-                element: <TestimonialDetails/>,
-                loader: () => fetch('testimonials.json')
+                path: "/testimonial/:clickedid",
+                element: <PrivateRoute><TestimonialDetails /></PrivateRoute>,
+                loader: () => fetch('testimonials.json'),
+            },
+            {
+                path: "/estates/:estateid",
+                element: <EstateDetailsPage/>,
+                loader: () => fetch('../../public/estate.json'),
             },
         ],
     },

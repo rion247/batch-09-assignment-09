@@ -3,7 +3,7 @@
         "id": 1,
         "estate_title": "Luxurious Villa with Stunning Views",
         "segment_name": "Luxury",
-        "description": "This luxurious villa offers breathtaking views of the surrounding mountains and sea. With spacious living areas, modern kitchen facilities, and a private swimming pool, it's the perfect retreat for those seeking tranquility and comfort.",
+        "description": "This luxurious villa offers breathtaking views of the surrounding mountains and sea. With spacious living areas, modern kitchen facilities, and a private swimming pool, it's the perfect retreat for those seeking tranquility and comfort. Nestled atop a verdant hillside, the Luxurious Villa with Stunning Views is a masterpiece of architectural opulence that transcends mere accommodation. Its palatial design seamlessly intertwines luxury with the breathtaking beauty of its surroundings. As one approaches, the grand entrance beckons with intricate stonework and graceful arches, hinting at the grandeur within. Inside, the expansive interior unfolds in a symphony of lavishness and sophistication. A grand foyer welcomes guests with marble floors and a sweeping staircase, leading to a sprawling living area adorned with sumptuous furnishings and bespoke décor. Floor-to-ceiling windows frame panoramic vistas, inviting the outdoors in and bathing the space in natural light. Adjacent, a chef's kitchen boasts marble countertops and state-of-the-art appliances, while a cozy library offers a sanctuary for quiet indulgence. Upstairs, each bedroom is a haven unto itself, adorned with sumptuous linens and bespoke furnishings, with ensuite bathrooms boasting marble vanities and deep soaking tubs. The outdoor terrace is the pièce de résistance, featuring an infinity pool, al fresco dining area, and bubbling hot tub, all overlooking panoramic views of the surrounding landscape. Beyond the villa, a world of adventure awaits, with hiking trails, golf courses, and pristine beaches just moments away. Whether unwinding with a massage in the spa or exploring the natural wonders of the countryside, every moment at the Luxurious Villa with Stunning Views is a testament to refined living and unparalleled luxury.",
         "price": 1000000,
         "status": "sale",
         "area_sq_ft": 5000,
@@ -16,13 +16,15 @@
         "beds": 6,
         "baths": 3,
         "garage": 2,
+        "post_time": 4,
+        "post_views": 420541,
         "image_url": "https://i.ibb.co/YTpc7GM/vu-anh-Ti-VPTYCG-3-E-unsplash.jpg"
     },
     {
         "id": 2,
         "estate_title": "Cozy Apartment in Downtown",
         "segment_name": "Urban",
-        "description": "This cozy apartment is located in the heart of downtown. With modern amenities, spacious rooms, and close proximity to shops and restaurants, it's an ideal choice for urban living.",
+        "description": "This cozy apartment is located in the heart of downtown. With modern amenities, spacious rooms, and close proximity to shops and restaurants, it's an ideal choice for urban living. Nestled in the heart of downtown, the Cozy Apartment offers a haven of comfort and convenience amidst the bustling urban landscape. Situated in a prime location, this charming residence combines modern living with a warm and inviting atmosphere. As one steps inside, the apartment unfolds into a cozy retreat, where every corner exudes a sense of homeliness and relaxation. The living area welcomes with plush furnishings and tasteful décor, creating an ideal space for unwinding after a busy day exploring the city. Large windows bathe the room in natural light, offering glimpses of the vibrant cityscape outside. Adjacent, the kitchen is equipped with modern appliances and ample counter space, making meal preparation a breeze. A dining area provides a cozy spot for enjoying meals or entertaining guests. The bedroom beckons with soft linens and a tranquil ambiance, ensuring a restful night's sleep. The bathroom boasts contemporary fixtures and a soothing atmosphere, offering a spa-like retreat for relaxation. Outside the apartment, the excitement of downtown living awaits, with a myriad of dining, shopping, and entertainment options just steps away. Whether strolling through bustling streets or enjoying a quiet evening in, the Cozy Apartment in Downtown offers the perfect blend of comfort and convenience for city living.",
         "price": 2000000,
         "status": "rent",
         "area_sq_ft": 800,
@@ -34,13 +36,15 @@
         "beds": 2,
         "baths": 1,
         "garage": 1,
+        "post_time": 3,
+        "post_views": 325456,
         "image_url": "https://i.ibb.co/5BVMP4p/todd-kent-178j8t-Jr-Nlc-unsplash.jpg"
     },
     {
         "id": 3,
         "estate_title": "Seaside Condo with Panoramic Views",
         "segment_name": "Beachfront",
-        "description": "This seaside condo offers panoramic views of the ocean and coastline. With modern design, spacious balconies, and access to resort-style amenities, it's perfect for those seeking a beachfront lifestyle.",
+        "description": "This seaside condo offers panoramic views of the ocean and coastline. With modern design, spacious balconies, and access to resort-style amenities, it's perfect for those seeking a beachfront lifestyle. Perched along the coastline, the Seaside Condo offers a luxurious retreat with unparalleled panoramic views of the azure sea stretching to the horizon. This exclusive residence epitomizes coastal living at its finest, combining contemporary elegance with the tranquility of oceanfront vistas. Upon entering, the condo envelops guests in a sense of serenity and sophistication, with floor-to-ceiling windows framing breathtaking views of the shimmering waters below. The open-concept living space boasts sleek furnishings and tasteful décor, creating an inviting atmosphere for relaxation and entertainment. A spacious balcony extends from the living area, providing an idyllic setting for al fresco dining or simply basking in the coastal breeze. The gourmet kitchen is a chef's delight, featuring premium appliances, granite countertops, and ample storage space. The master bedroom offers a private sanctuary with stunning ocean views and luxurious amenities, including a spa-like ensuite bathroom and a walk-in closet. Additional guest bedrooms provide comfort and privacy for family and friends. Outside, residents can enjoy a range of resort-style amenities, including a waterfront pool, fitness center, and landscaped gardens. Steps away from the pristine sandy beach, the Seaside Condo offers direct access to sun, sand, and surf, allowing residents to immerse themselves in the coastal lifestyle. Whether watching the sunset from the balcony or exploring the vibrant local scene, this exquisite condo promises an unparalleled seaside retreat for discerning homeowners seeking the ultimate in luxury living.",
         "price": 800000,
         "status": "sale",
         "area_sq_ft": 1500,
@@ -53,13 +57,15 @@
         "beds": 2,
         "baths": 2,
         "garage": 1,
+        "post_time": 5,
+        "post_views": 524631,
         "image_url": "https://i.ibb.co/rxvqwb1/stephan-bechert-y-FV39g6-AZ5o-unsplash.jpg"
     },
     {
         "id": 4,
         "estate_title": "Mountain Retreat Cabin with Serene",
         "segment_name": "Rural",
-        "description": "This mountain retreat cabin offers serene surroundings and rustic charm. With cozy interiors, a wood-burning fireplace, and access to hiking trails, it's the perfect getaway for nature lovers.",
+        "description": "This mountain retreat cabin offers serene surroundings and rustic charm. With cozy interiors, a wood-burning fireplace, and access to hiking trails, it's the perfect getaway for nature lovers. Nestled amidst the towering pines and rugged terrain, the Mountain Retreat Cabin offers a serene escape from the hustle and bustle of everyday life. Tucked away in a secluded enclave, this rustic yet elegant abode provides a tranquil sanctuary where nature's beauty takes center stage. As you arrive, a winding path leads through the forest to the cabin's doorstep, setting the tone for a retreat into the wilderness. The cabin's exterior blends seamlessly with its surroundings, featuring natural wood siding and a spacious deck overlooking sweeping mountain vistas. Step inside, and you're greeted by a cozy interior adorned with warm wood finishes, exposed beams, and large windows that invite the outdoors in. The living area beckons with comfortable furnishings arranged around a stone fireplace, creating a perfect spot for relaxation and conversation. A fully equipped kitchen offers modern amenities and ample space for preparing hearty meals to be enjoyed at the adjacent dining area. The cabin boasts one or more bedrooms, each providing a peaceful haven for rest and rejuvenation after a day of outdoor adventures. Outside, the expansive deck is an extension of the living space, offering an ideal setting for sipping morning coffee or stargazing under the night sky. Surrounded by nature's splendor, residents can explore nearby hiking trails, fish in crystal-clear streams, or simply unwind in the tranquility of the mountain landscape. Whether seeking solitude or quality time with loved ones, the Mountain Retreat Cabin offers a serene haven where the beauty of the natural world unfolds at every turn.",
         "price": 500000,
         "status": "rent",
         "area_sq_ft": 2000,
@@ -72,13 +78,15 @@
         "beds": 3,
         "baths": 3,
         "garage": 1,
+        "post_time": 2,
+        "post_views": 172589,
         "image_url": "https://i.ibb.co/6npLfKN/greg-rivers-r-Ch-FUMw-Ae7-E-unsplash.jpg"
     },
     {
         "id": 5,
         "estate_title": "Luxury Penthouse with Skyline Views",
         "segment_name": "Cityscape",
-        "description": "This luxury penthouse offers breathtaking skyline views and modern luxury. With expansive living spaces, designer finishes, and a rooftop terrace, it's the epitome of urban sophistication.",
+        "description": "This luxury penthouse offers breathtaking skyline views and modern luxury. With expansive living spaces, designer finishes, and a rooftop terrace, it's the epitome of urban sophistication. Perched high above the city streets, the Luxury Penthouse with Skyline Views offers a lavish retreat in the heart of the urban landscape. This exclusive residence epitomizes sophistication and modern luxury, with every detail meticulously designed to provide an unparalleled living experience. As you step into the penthouse, floor-to-ceiling windows frame breathtaking panoramic views of the city skyline, stretching as far as the eye can see. The spacious living area boasts sleek, contemporary furnishings and designer accents, creating an atmosphere of elegance and refinement. A state-of-the-art entertainment system and fireplace add to the ambiance, making it the perfect space for entertaining guests or simply relaxing in style. The gourmet kitchen is a chef's dream, featuring high-end appliances, custom cabinetry, and an oversized island with seating for casual dining. The penthouse offers one or more luxurious bedrooms, each with its own ensuite bathroom and private balcony overlooking the city below. The master suite is a sanctuary of comfort and indulgence, with a king-sized bed, spa-like bathroom, and walk-in closet. Outside, a sprawling terrace beckons with unparalleled views and luxurious amenities, including a private hot tub, outdoor kitchen, and seating area for alfresco dining. Residents can also enjoy access to exclusive building amenities, such as a fitness center, spa, and concierge services. With its prime location in the heart of the city, the Luxury Penthouse provides easy access to top restaurants, shopping destinations, and cultural attractions. Whether hosting a glamorous soiree or simply enjoying a quiet evening at home, this exquisite penthouse offers a lifestyle of unparalleled luxury and sophistication.",
         "price": 1500000,
         "status": "sale",
         "area_sq_ft": 4000,
@@ -91,13 +99,15 @@
         "beds": 6,
         "baths": 4,
         "garage": 3,
+        "post_time": 6,
+        "post_views": 653254,
         "image_url": "https://i.ibb.co/JpZcj9S/frames-for-your-heart-m-R1-CIDdu-GLc-unsplash.jpg"
     },
     {
         "id": 6,
         "estate_title": "Charming Cottage in Suburban",
         "segment_name": "Suburban",
-        "description": "This charming cottage is nestled in a quiet suburban neighborhood. With a cozy fireplace, spacious backyard, and proximity to parks and schools, it's perfect for families seeking a peaceful retreat.",
+        "description": "This charming cottage is nestled in a quiet suburban neighborhood. With a cozy fireplace, spacious backyard, and proximity to parks and schools, it's perfect for families seeking a peaceful retreat. Nestled in the tranquil suburbs, the Charming Cottage offers a delightful retreat from the hustle and bustle of city life. Surrounded by lush greenery and blooming gardens, this idyllic residence exudes warmth and character, inviting residents to unwind in its cozy embrace. As you approach the cottage, a winding pathway leads through a picturesque garden to the front door, where a quaint porch welcomes with its inviting charm. Step inside, and you'll find yourself in a world of rustic elegance, with exposed wooden beams, stone accents, and hardwood floors lending a sense of timeless appeal. The living area beckons with comfortable furnishings arranged around a fireplace, creating a cozy spot for relaxation or gathering with loved ones. A fully equipped kitchen boasts modern amenities and farmhouse-style touches, making meal preparation a joy. The cottage offers one or more charming bedrooms, each thoughtfully decorated to create a peaceful haven for rest and rejuvenation. Outside, a spacious backyard provides a private oasis for enjoying the outdoors, with a patio area for dining al fresco and a lush lawn for picnics or play. Residents can also explore the surrounding neighborhood, with its tree-lined streets, friendly neighbors, and nearby parks and trails. Whether curling up with a book by the fire or hosting a barbecue with friends, the Charming Cottage offers a tranquil haven where every moment is infused with comfort and serenity.",
         "price": 300000,
         "status": "sale",
         "area_sq_ft": 1800,
@@ -110,13 +120,15 @@
         "beds": 2,
         "baths": 2,
         "garage": 1,
+        "post_time": 3,
+        "post_views": 852147,
         "image_url": "https://i.ibb.co/L9n7ns4/florian-schmidinger-b-79n-Oqf95-I-unsplash.jpg"
     },
     {
         "id": 7,
         "estate_title": "Modern Townhouse with Urban",
         "segment_name": "Townhouse",
-        "description": "This modern townhouse offers urban convenience and contemporary living. With sleek design, open floor plan, and proximity to shops and restaurants, it's perfect for those seeking a dynamic lifestyle.",
+        "description": "This modern townhouse offers urban convenience and contemporary living. With sleek design, open floor plan, and proximity to shops and restaurants, it's perfect for those seeking a dynamic lifestyle. Situated in the heart of the bustling city, the Modern Townhouse offers a sleek and stylish retreat in an urban oasis. This contemporary residence embodies the epitome of city living, with its clean lines, minimalist design, and convenient amenities. As you enter, you're greeted by an open-concept living space that seamlessly blends comfort and sophistication. Floor-to-ceiling windows flood the area with natural light, creating a bright and airy atmosphere that enhances the sleek, modern decor. The living room is furnished with chic, comfortable seating and a state-of-the-art entertainment system, perfect for relaxing or entertaining guests. The adjacent dining area features a sleek table and chairs, ideal for intimate dinners or casual meals with friends. The gourmet kitchen is a chef's dream, with high-end appliances, ample counter space, and stylish finishes that make cooking a pleasure. Upstairs, the townhouse offers one or more spacious bedrooms, each with its own ensuite bathroom and ample closet space. The master suite is a luxurious retreat, with a king-sized bed, spa-like bathroom, and private balcony overlooking the city skyline. Outside, a rooftop terrace provides a private oasis with stunning views of the surrounding cityscape. Residents can relax in the hot tub, host gatherings around the fire pit, or simply soak up the sun while enjoying the urban scenery. With its prime location in the heart of the city, the Modern Townhouse offers easy access to top restaurants, shops, and cultural attractions. Whether you're exploring the vibrant neighborhood or unwinding in the comfort of your stylish abode, this modern townhouse is the perfect urban sanctuary for discerning homeowners.",
         "price": 600000,
         "status": "rent",
         "area_sq_ft": 2500,
@@ -129,13 +141,15 @@
         "beds": 3,
         "baths": 2,
         "garage": 1,
+        "post_time": 4,
+        "post_views": 532147,
         "image_url": "https://i.ibb.co/N6cD53L/digital-marketing-agency-ntwrk-g39p1k-Djv-SY-unsplash.jpg"
     },
     {
         "id": 8,
         "estate_title": "Spacious Family Home in Quiet Suburb",
         "segment_name": "Family",
-        "description": "This spacious family home is located in a quiet suburban neighborhood. With multiple bedrooms, large backyard, and excellent schools nearby, it's ideal for families looking for a peaceful and safe environment.",
+        "description": "This spacious family home is located in a quiet suburban neighborhood. With multiple bedrooms, large backyard, and excellent schools nearby, it's ideal for families looking for a peaceful and safe environment. Nestled in a tranquil suburb, the Spacious Family Home offers an ideal retreat for those seeking comfort, convenience, and serenity. Set against a backdrop of tree-lined streets and manicured lawns, this inviting residence provides ample space for family living and entertaining. As you approach, a sprawling front yard and welcoming porch set the tone for a warm and inviting atmosphere. Step inside, and you're greeted by a light-filled interior adorned with modern finishes and thoughtful details. The expansive living area boasts plenty of room for relaxation and gatherings, with comfortable seating and a cozy fireplace creating a focal point for family gatherings. Large windows bathe the space in natural light, offering views of the peaceful surroundings. Adjacent, the kitchen is a chef's dream, featuring a spacious layout, high-end appliances, and ample counter space for meal preparation. A separate dining area provides a perfect spot for enjoying family meals or hosting dinner parties with friends. The home offers multiple bedrooms, each offering privacy and comfort for family members or guests. The master suite is a luxurious retreat, with a spacious layout, walk-in closet, and ensuite bathroom featuring a soaking tub and separate shower. Outside, a generous backyard offers endless possibilities for outdoor enjoyment, with a patio area for barbecues, a lawn for play, and space for gardening or relaxation. With its quiet location and family-friendly amenities, the Spacious Family Home provides a peaceful haven where every moment is infused with comfort and tranquility.",
         "price": 400000,
         "status": "sale",
         "area_sq_ft": 2800,
@@ -148,7 +162,8 @@
         "beds": 4,
         "baths": 3,
         "garage": 2,
+        "post_time": 3,
+        "post_views": 231458,
         "image_url": "https://i.ibb.co/fq04Y2T/ann-wallace-biep-NX5n7r4-unsplash.jpg"
     }
-    
 ]

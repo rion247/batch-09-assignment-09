@@ -1,5 +1,4 @@
 import { Helmet } from 'react-helmet';
-import NavBar from '../NavBar/NavBar';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useContext, useState } from 'react';
 import { AuthContext } from './../../AuthProvider/AuthProvider';
@@ -11,7 +10,7 @@ const LoginPage = () => {
 
     const [showPassword, SetShowPassword] = useState(false);
 
-    const { userLogin, createGitHubLogin, createGoogleLogin } = useContext(AuthContext);
+    const { userLogin, createGitHubLogin, createGoogleLogin, SetReload } = useContext(AuthContext);
 
     const location = useLocation();
     const navigate = useNavigate();
@@ -30,10 +29,10 @@ const LoginPage = () => {
 
         userLogin(email, password)
             .then((userCredential) => {
-                // Signed in 
                 const user = userCredential.user;
+                navigate(location?.state ? location.state : '/');
                 console.log(user);
-                // ...
+                SetReload(true);
             })
             .catch((error) => {
                 const errorMessage = error.message;
@@ -48,6 +47,7 @@ const LoginPage = () => {
                 console.log(result.user);
                 toast('Login Successful');
                 navigate(location?.state ? location.state : '/');
+                SetReload(true);
             })
             .catch((error) => {
                 const errorMessage = error.message;
@@ -62,6 +62,7 @@ const LoginPage = () => {
                 console.log(result.user);
                 toast('Login Successful');
                 navigate(location?.state ? location.state : '/');
+                SetReload(true);
             })
             .catch((error) => {
                 const errorMessage = error.message;
@@ -75,8 +76,6 @@ const LoginPage = () => {
             <Helmet>
                 <title>Modern Living | Login Page</title>
             </Helmet>
-
-            <NavBar></NavBar>
 
             <div data-aos="fade-up" className='flex items-center justify-center' data-aos-duration="3000">
 
