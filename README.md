@@ -43,7 +43,7 @@ Although the average value of a home is less than that of an office building, th
 ---
 
 ## Required Links:
-+ **[Use Form React:](https://react-hook-form.com/)**
++ **[React Hook Form](https://react-hook-form.com/)**
 + **[Swiper JS](https://swiperjs.com/get-started)**
 + **[AOS Package](https://michalsnik.github.io/aos/)**
 + **[React Slick](https://react-slick.neostack.com/)**
