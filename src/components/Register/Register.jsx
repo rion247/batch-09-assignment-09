@@ -94,7 +94,7 @@ const Register = () => {
                                 name="password" placeholder="Enter Your Password" className="w-full p-5 border rounded-md border-neutral-200 text-neutral-500 " {...register("password", { required: true })} />
                             {errors.password && <span className='text-red-500'>This field is required</span>}
 
-                            <span onClick={() => SetShowPassword(!showPassword)} className='absolute text-base lg:text-lg xl:text-xl text-neutral-500 md:top-[70px] xl:top-16 right-4 xl:right-6 cursor-pointer'>
+                            <span onClick={() => SetShowPassword(!showPassword)} className='absolute text-base lg:text-lg xl:text-xl text-neutral-500 top-[65px] md:top-[70px] xl:top-16 right-4 xl:right-6 cursor-pointer'>
                                 {
                                     showPassword ? <FaEyeSlash /> : <FaEye />
                                 }
