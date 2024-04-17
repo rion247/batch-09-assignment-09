@@ -1,5 +1,4 @@
 import { Helmet } from 'react-helmet';
-import NavBar from '../NavBar/NavBar';
 import { Link, useNavigate } from 'react-router-dom';
 import { useForm } from "react-hook-form"
 import { useContext, useState } from 'react';
