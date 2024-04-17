@@ -31,12 +31,13 @@ const LoginPage = () => {
             .then((userCredential) => {
                 const user = userCredential.user;
                 navigate(location?.state ? location.state : '/');
+                toast('Login Successful');
                 console.log(user);
                 SetReload(true);
             })
             .catch((error) => {
                 const errorMessage = error.message;
-                console.log(errorMessage);
+                toast(errorMessage);                
             });
 
     }
