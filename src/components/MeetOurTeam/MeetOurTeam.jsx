@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet';
 import teamPic1 from '../../assets/team01.jpg';
 import teamPic2 from '../../assets/team02.jpg';
 import teamPic3 from '../../assets/team03.jpg';
@@ -9,6 +10,11 @@ import teamPic8 from '../../assets/team08.jpg';
 const MeetOurTeam = () => {
     return (
         <section className="py-6 md:py-8 lg:py-12 font-poppins">
+
+            <Helmet>
+                <title>Modern Living | Our Team Page</title>
+            </Helmet>
+
             <div className="container p-4 mx-auto space-y-16 sm:p-10">
                 <div className="space-y-4">
                     <h3 className="text-2xl font-bold leading-none md:text-3xl lg:text-4xl xl:text-5xl text-center mb-4">Meet our team</h3>
